@@ -1,3 +1,6 @@
 'lambda_curry2-correct', (0, 66)
 'count_cond-correct', (512, 66)
 'cycle-correct', (1024, 66)
+'hop-correct', (1536, 66)
+'digit_index_factory-correct', (2048, 66)
+'composite_identity-correct', (2560, 66)

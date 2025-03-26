@@ -1,4 +1,3 @@
-
 def digit_index_factory(num, k):
     """
     Returns a function that takes no arguments, and outputs the offset
@@ -14,4 +13,10 @@ def digit_index_factory(num, k):
     >>> digit_index_factory(1234, 0)() # .Case 4
     -1
     """
-    "*** YOUR CODE HERE ***"
+    index = 0
+    while num:
+        if num % 10 == k:
+            return lambda: index
+        index += 1
+        num //= 10
+    return lambda: -1

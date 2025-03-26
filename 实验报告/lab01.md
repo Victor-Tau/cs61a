@@ -50,7 +50,7 @@
 
 通过几个问题，掌握python的基本语句
 
-### 1. **WWPD: Contro**
+### 1. **WWPD: Control**
 
 使用 Ok 测试你的知识，回答下面的“Python会显示什么”问题
 
