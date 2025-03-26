@@ -3,3 +3,5 @@
 'summation_using_accumulate-correct', (1024, 66)
 'product_using_accumulate-correct', (1536, 66)
 'hailstone-correct', (2048, 66)
+'count_until_larger-correct', (2560, 66)
+'filter_sequence-correct', (3072, 66)
