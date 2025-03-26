@@ -1,0 +1,6 @@
+'add_in_range-correct', (0, 66)
+'digit_pos_match-correct', (512, 66)
+'k_occurrence-correct', (1024, 66)
+'falling-correct', (1536, 66)
+'sum_digits-correct', (2048, 66)
+'double_eights-correct', (2560, 66)
