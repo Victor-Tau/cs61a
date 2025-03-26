@@ -458,7 +458,7 @@ OK! All cases for debugging-quiz unlocked.
 
 ---
 
-#### 4. **`add_in_range`函数**
+### 4. **`add_in_range`函数**
 
 函数要求：完成 `add_in_range` ，返回 `start` 和 `stop` （包括）之间的所有整数和
 
@@ -483,7 +483,7 @@ def add_in_range(start, stop):
 
 ---
 
-#### 5. **`digit_pos_match`函数**
+### 5. **`digit_pos_match`函数**
 
 函数要求：Digit Position Match 是指数字的倒数第 `i` 位的数就是 `i`，例如， `980` 有倒数第 `0` 位是 `0` ， `98276` 有 倒数第 `2` 位是 `2` 。编写函数来确定一个数字 `n` 是否有倒数第 `k` 位的数字/位置匹配。
 
@@ -514,7 +514,7 @@ def digit_pos_match(n, k):
 
 ---
 
-#### 6. **`falling`函数**
+### 6. **`falling`函数**
 
 函数要求：编写函数 `falling`，接受两个参数 `n` 和 `k` ， 返回 从 `n` 开始的倒数 `k` 个连续数字之积。当 `k` 为 `0` 时，函数返回`1`
 
@@ -547,7 +547,7 @@ def falling(n, k):
 
 ---
 
-#### 7. **`sum_digits`函数**
+### 7. **`sum_digits`函数**
 
 函数要求：编写函数接受非负整数，返回其数位之和。（提示：使用整数除和取模可能会有用！）
 
@@ -577,7 +577,7 @@ def sum_digits(y):
 
 ---
 
-#### 8. **WWPD： What If?**
+### 8. **WWPD： What If?**
 
 使用 Ok 测试你的知识，回答下面的“Python会显示什么”问题：
 
@@ -647,7 +647,7 @@ OK! All cases for What If? unlocked.
 
 ---
 
-#### 9. **`k_occurrence`函数**
+### 9. **`k_occurrence`函数**
 
 函数要求：完成函数 `k-occurrence` ，返回 数位 `k` 在 `num` 中出现的次数， `0` 被当作没有数位。 
 
@@ -680,7 +680,7 @@ def k_occurrence(k, num):
 
 ---
 
-#### 10. **`double_eights`函数**
+### 10. **`double_eights`函数**
 
 函数要求：编写函数，接受一个数字并确定其是否包括两个相邻的 `8`
 
