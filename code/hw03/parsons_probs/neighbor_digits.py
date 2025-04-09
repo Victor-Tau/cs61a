@@ -11,4 +11,9 @@ def neighbor_digits(num, prev_digit=-1):
     >>> neighbor_digits(1122)
     4
     """
-    "*** YOUR CODE HERE ***"
+    s = str(num)
+    count = 0
+    for i in range(len(s)):
+        if (i > 0 and s[i] == s[i-1]) or (i < len(s)-1 and s[i] == s[i+1]):
+            count += 1
+    return count

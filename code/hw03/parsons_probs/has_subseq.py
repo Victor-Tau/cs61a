@@ -15,4 +15,10 @@ def has_subseq(n, seq):
     >>> has_subseq(1343412, 134)
     True
     """
-    "*** YOUR CODE HERE ***"
+    n_str = str(n)
+    seq_str = str(seq)
+    seq_index = 0
+    for char in n_str:
+        if seq_index < len(seq_str) and char == seq_str[seq_index]:
+            seq_index += 1
+    return seq_index == len(seq_str)
